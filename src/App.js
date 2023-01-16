@@ -1,7 +1,7 @@
-import React from 'react';
+import './index.css';
 
 const App = () => {
-	return <div>HomePage</div>;
+	return <div className='app'>HomePage</div>;
 };
 
 export default App;
