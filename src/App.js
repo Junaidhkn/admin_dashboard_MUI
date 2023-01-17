@@ -1,9 +1,9 @@
-import {
-	createBrowserRouter,
-	RouterProvider,
-	Route,
-	createRoutesFromElements,
-} from 'react-router-dom';
+// import {
+// 	createBrowserRouter,
+// 	RouterProvider,
+// 	Route,
+// 	createRoutesFromElements,
+// } from 'react-router-dom';
 import './index.css';
 import { useMode, ColorModeContext } from './theme.js';
 import { CssBaseline, ThemeProvider } from '@mui/material';
@@ -21,57 +21,57 @@ import Sidebar from './scenes/globals/SideBar.jsx';
 // import Geography from './scenes/geography';
 // import Calendar from './scenes/calendar/calendar';
 
-const router = createBrowserRouter(
-	createRoutesFromElements(
-		<Route>
-			{/* <Route
-				path='/'
-				index
-				element={<Dashboard />}
-			/>
-			<Route
-				path='/team'
-				index
-				element={<Team />}></Route>
-			<Route
-				path='/contacts'
-				element={<Contacts />}
-			/>
-			<Route
-				path='/invoices'
-				element={<Invoices />}
-			/>
-			<Route
-				path='/form'
-				element={<Form />}
-			/>
-			<Route
-				path='/bar'
-				element={<Bar />}
-			/>
-			<Route
-				path='/pie'
-				element={<Pie />}
-			/>
-			<Route
-				path='/line'
-				element={<Line />}
-			/>
-			<Route
-				path='/faq'
-				element={<FAQ />}
-			/>
-			<Route
-				path='/calendar'
-				element={<Calendar />}
-			/>
-			<Route
-				path='/geography'
-				element={<Geography />}
-			/> */}
-		</Route>,
-	),
-);
+// const router = createBrowserRouter(
+// 	createRoutesFromElements(
+// 		<Route>
+// 			<Route
+// 				path='/'
+// 				index
+// 				element={<Dashboard />}
+// 			/>
+// 			<Route
+// 				path='/team'
+// 				index
+// 				element={<Team />}></Route>
+// 			<Route
+// 				path='/contacts'
+// 				element={<Contacts />}
+// 			/>
+// 			<Route
+// 				path='/invoices'
+// 				element={<Invoices />}
+// 			/>
+// 			<Route
+// 				path='/form'
+// 				element={<Form />}
+// 			/>
+// 			<Route
+// 				path='/bar'
+// 				element={<Bar />}
+// 			/>
+// 			<Route
+// 				path='/pie'
+// 				element={<Pie />}
+// 			/>
+// 			<Route
+// 				path='/line'
+// 				element={<Line />}
+// 			/>
+// 			<Route
+// 				path='/faq'
+// 				element={<FAQ />}
+// 			/>
+// 			<Route
+// 				path='/calendar'
+// 				element={<Calendar />}
+// 			/>
+// 			<Route
+// 				path='/geography'
+// 				element={<Geography />}
+// 			/>
+// 		</Route>,
+// 	),
+// );
 
 const App = () => {
 	const [theme, colorMode] = useMode();
@@ -84,7 +84,7 @@ const App = () => {
 					<Sidebar />
 					<main className='content'>
 						<Topbar />
-						<RouterProvider router={router} />
+						{/* <RouterProvider router={router} /> */}
 					</main>
 				</div>
 			</ThemeProvider>
