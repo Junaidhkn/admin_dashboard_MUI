@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import { configureStore } from '@reduxjs/toolkit';
 import { Provider } from 'react-redux';
-import globalReducer from "app";
+import globalReducer from "store";
 
 
 const store = configureStore( {
@@ -18,7 +18,6 @@ root.render(
   <React.StrictMode>
     <Provider store={store}>
       <App />
-
     </Provider>
   </React.StrictMode>
 );
