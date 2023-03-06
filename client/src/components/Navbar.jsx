@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import {
 	LightModeOutlined,
 	DarkModeOutlined,
@@ -9,8 +9,8 @@ import {
 } from '@mui/icons-material';
 import FlexBetween from 'components/FlexBetween';
 import { useDispatch } from 'react-redux';
-import { setMode } from 'state';
-import profileImage from 'assets/profile.jpeg';
+import { setMode } from 'store/index.js';
+import profileImage from 'assets/junaid.jpg';
 import {
 	AppBar,
 	Button,
