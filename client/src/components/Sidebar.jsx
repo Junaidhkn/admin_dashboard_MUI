@@ -135,7 +135,7 @@ const Sidebar = ({
 									<Typography
 										variant='h4'
 										fontWeight='bold'>
-										ECOMVISION
+										ECOMThings.
 									</Typography>
 								</Box>
 								{!isNonMobile && (
